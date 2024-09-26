@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 # Load your trained model
-model = tf.keras.models.load_model('C:/Users/archa/OneDrive/Desktop/tumor_detectionCNN/CNN/cnn_tumor.h5')
+model = tf.keras.models.load_model('cnn_tumor.h5')
 
 # Function to preprocess the image
 def preprocess_image(image):
